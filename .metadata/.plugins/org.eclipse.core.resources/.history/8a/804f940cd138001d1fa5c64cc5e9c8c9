@@ -42,7 +42,7 @@ public class ActionCass {
 		ele.password("password123");
 		ele.setdate(10);
 		ele.setmonth(6);
-		ele.setyear("1998");
+		ele.setyear("1997");
 		ele.male();
 		ele.sign();
 //		ele.reemail.isDisplayed();
