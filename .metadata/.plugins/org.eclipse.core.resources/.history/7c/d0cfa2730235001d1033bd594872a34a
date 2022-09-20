@@ -1,0 +1,24 @@
+package expectionHandling;
+
+import java.util.Scanner;
+
+public class SimpleExceptions {
+	
+	public static void main(String[] args) {
+		
+		Scanner s=new Scanner(System.in);
+				int m=s.nextInt();
+				int n=s.nextInt();
+				System.out.println("Enter Two Numbers:");
+		int d=m/n;		
+		try {
+			System.out.println((int) d);
+		}
+		catch(Exception e){
+			if(n==0) {
+				System.out.println("Denominator cant be '0'");
+			}
+		}
+	}
+}
+

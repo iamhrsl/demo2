@@ -1,0 +1,13 @@
+package expectionHandling;
+
+public class Again {
+
+	public static void main(String[] args) {
+
+		float a=10.0f;
+		float b=30.0f;
+		float d=(a/b);
+		System.out.println(d);
+	}
+
+}
